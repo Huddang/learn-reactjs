@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const age = 17;
+  const isFemale = true;
+  const student = {
+    name: "Dang Hoang",
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {student.name} - {age} - {`${isFemale}`}
         </a>
       </header>
     </div>
